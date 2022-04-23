@@ -1,4 +1,4 @@
-# Web Programlama Dönem Projesi
+# Web Teknolojileri Dönem Projesi
 
 ## Proje Yazarı
 - Kamil Kaygısız-b211210381
