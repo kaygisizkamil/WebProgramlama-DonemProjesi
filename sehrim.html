@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="navbarstyle.css">
+</head>
+<body>
+
+<nav class="navbar navbar-custom navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.sakarya.edu.tr/">T.C Sakarya Üniversitesi </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">AnaSayfa</a></li><!--Burası home-hakkımda sayfasına yönlenecek-->
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menü <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">My Cv</a></li>
+          <li><a href="#">Şehrim</a></li>
+          <li><a href="#">Futbol Takımı</a></li>
+          <li><a href="#">İlgi Alanlarım</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.php"><span class="glyphicon glyphicon-user"></span> Login Sayfası</a></li>
+      <li><a href="formValidation.html"><span class="glyphicon glyphicon-log-in"></span> İletişim Sayfası</a></li>
+    </ul>
+  </div>
+</nav>
+  <p class="baslik">KÜTAHYA İLE İLGİLİ BİLGİLER</p>
+<p class="tarihce">
+  Kütahya (Latince: Cotyaeum), Ege Bölgesi'nde yer alan Kütahya ilinin merkezi şehirdir. Kütahya bölgesi,
+   kuzey ve batıdaki yüksek dağ sırtlarında doruğa ulaşan tarım arazileri ile geniş bir yamaç
+   alanına sahiptir. Kentin Yunanca adı Kotyaion, Roma dönemindeki adı ise Cotyaeum'dur[1].
+
+  Eski kaynaklara, sikke ve yazıtlara göre Kütahya’nın antik dönemdeki adı “Kotiaeion” (Cotiaeion)'dur[2]. 
+  Ünlü Antik Çağ coğrafyacısı Strabon bu adın, “Kotys’in Kenti” anlamına geldiğini
+   belirtmektedir. Kotys, Trakya’da yaşayan Odrisler’den olup, Romalılar’ın MS 38'de Anadolu’ya gönderdiği bir komutanın adıdır.
+    Kütahya Arkeoloji Müzesi’nde bulunan bir sikkede bu ad “Koti” olarak geçmektedir.
+    Kütahya adı, eskisine benzetilerek Türkler tarafından verilmiştir[3]. Şehrin nüfusu 2013 yılına göre 249.558'dir.
+    1927'de 17.000 olan nüfusu, 1990'da 131.000'e, 2000'de 167.000'e, 2008'de 213.000'e 2010'da 
+    235.000'e çıkmış, 2014'te 228.000'e düşmüştür. Kent'in günümüzdeki belli başlı görülmesi gerekli yerleri Kütahya Kalesi, 
+    Cumhuriyet Caddesi (Yeni adı Sevgi Yolu) 
+  kentin merkezinde bulunan simgesi haline gelmiş çiniden yapılmış olan Vazo ve tarihi Germiyan Sokağı, Saat Kulesi, Zafertepe Anıtı, 
+  Tarihi Hükûmet Konağı (şu an Adliye olarak kullanılmaktadır), 
+  Frig Vadileridir.
+</p>
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+  
+        <div class="item active">
+            <a href="#kale"><img src="sehir_kale.jpg" alt="Smt went wrong" ></a>
+          <div class="carousel-caption">
+            <h3>Kütahya Kalesi</h3>
+          </div>
+        </div>
+  
+        <div class="item">
+         <a href="#germiyan"> <img src="sehir_germiyan_konak.jpg" alt="Smt went wrong" ></a>
+          <div class="carousel-caption">
+            <h3>Germiyan Konakları</h3>
+          </div>
+        </div>
+      
+        <div class="item">
+          <a href="#vazo"><img src="sehir_vazo.jpg" alt="smt went wrong"></a>
+          <div class="carousel-caption">
+            <h3>Vazo</h3>
+          </div>
+        </div>
+
+        <div class="item">            
+           <a href="#harita"> <img src="sehir_harita.jpg" alt="smt went wrong"></a>
+            <div class="carousel-caption">
+              <h3>Şehir haritası</h3>
+            </div>
+          </div>
+      
+
+
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+   <br><br><br>
+  <div class= "container">
+      <a id="vazo"></a>
+    <p class="baslik">Vazo Hakkında</p>
+      <p class="tarihce">
+    Kent meydanına 1970’li yıllarda yapılan “Çinili Vazo”; yüzyıllar boyunca 
+    dünyanın en iyi çini ustalarını yetiştiren Kütahya’nın ve saraylardan hamamlara, kiliselerden camilere,
+     çeşmelerden evlere uzanan bir kültürün sembolüdür.
+
+    Rivayete göre bölgede bir pazara getirdiği testi, tabak, vazo, sürahi, çanak ve çömleklerin sağlamlığı
+     ve zarifliği yüzünden dikkat çeken  bir kadını, diğer satıcılar takip eder. Kadının bugünkü Kütahya’nın 
+     bulunduğu yere gelip heybesini toprakla doldurmasıyla bu bölgede atölyeler açılır, şehir kurulur ve 
+     bugünkü Kütahya’nın ilk adı,
+    seramik şehri anlamındaki “Seramorum” olur.</p>
+  </div>
+  <div class= "container">
+    <a href="germiyan">
+    <p class="baslik">Germiyan Konakları</p>
+      <p class="tarihce">
+  Germiyan Sokağı Konakları, kentsel dokuyu oluşturan en önemli yapı birimi evlerdir.
+   Kütahya, konut mimarisi bakımından Anadolu’nun ahşap bölgesi içinde kalmaktadır.
+    Balıkesir-Uşak-Antalya çizgisinde tanımlanan Batı Anadolu Türk Evleri grubunda yer alır.
+
+  Kütahya Evleri; cihannümaları, ahşap payandalı çıkmaları, oda düzeni, çok katlılığı, iki veya dört eğimli çatıları, 
+  ahşap çatkı arası dolgu veya bağdadi yapım sistemleri, 18. yüzyıla kadar açık dış, daha sonra orta iç sofalı yapılarıyla
+   tipik Türk evinin tüm özelliklerini gösterir.
+  
+  17. yüzyıldan kalmış en eski ev Macar bağımsızlık savaşı önderi Lajos Kossuth’un konuk edilmiş olduğu Hamdi Aydın Evidir. 
+  Sultanbağı mahallesinde Defterdar Konağı, Kurşunlu mahallesinde Hacı İsmail Efendi Evi, Gazi Kemal mahallesinde Bandımzade Evi, 
+  Pirler mahallesinde Germiyan Konağı, gibi kentin eski çekirdek mahallelerinde pek çok eski Kütahya evleri yaşamaktadır. 
+  Sivil Mimarlık örnekleri içinde açık sofalılar (17-18. yüzyıl) Kütahya’nın en karakteristik evleridir.
+    </p>
+    </div>
+    <a id="kale"></a>
+    <div class= "container">
+    <p class="baslik">Türkiye’nin 3. Büyük Kalesi</p>
+      <p class="tarihce">
+
+Kütahyalı seyyah, ilim adamı, yazar ve halk bilimci Evliya Çelebi’nin Seyahatname'sinde de adından söz ettiği Kütahya Kalesi 72 burcuyla
+ Türkiye’nin 3. büyük kalesi. 
+ 
+Tarihle sanatın iç içe geçtiği Kütahya’da, Maruf Mahallesinde yer alan Kütahya Kalesi’ne ulaşım da oldukça kolay.
+ Tarihi kalenin kent merkezine uzaklığı yaklaşık 3 km. 
+ 
+Zamana meydan okuyan tarihi kale konuklarına yalnızca Kütahya manzarası vadetmiyor üstelik. Şehrin kalbine çıktığınızda
+ tarihle doğanın o muhteşem buluşmasına da tanıklık edeceksiniz. 
+
+Yaz mevsiminde yeşiline, kış mevsiminde beyazına hayran olacağınız; her mevsim farklı bir güzellikle konuklarını 
+büyüleyen Kütahya Kalesi’nin gündüzü ve gecesi de bambaşka güzellikler saklıyor. Sabahın yeşil tonları akşam yerini şehrin ışıl ışıl 
+görüntüsüne ve huzur dolu sessizliğine bırakıyor. 
+</p>
+</div>
+<div class= "container">
+    <a href="harita"></a>
+    <p class="baslik">Kütahya Nüfus Yoğunluğu</p>
+      <p class="tarihce">
+Yüzölçümü 12.043 km2 olan Kütahya ilinde kilometrekareye 48 insan düşmektedir. Kütahya nüfus yoğunluğu 48/km2'dir.</p>
+</div>
+
+<div class= "container">
+   <p class="baslik">Kütahya Nüfusu 2022</p>
+   <p class="tarihce">
+Kütahya 2022 nüfusu, tahmini verilere göre 578.640.
+Bu nüfus verisi, eski yıllarıdaki nüfus artış hızlarına göre tahmini hesaplanmıştır. 
+Kütahya 2022 resmi nüfus bilgileri 2023 yılının başında açıklanacaktır.
+</p>
+</body>
+</html>
