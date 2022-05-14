@@ -7,7 +7,7 @@
 - Hakkında sayfası.
 - CV.
 - Şehrim sayfası.
-- Mirasımız sayfası.
+- Takımım sayfası.
 - İlgi alanlarım sayfası(ücretsiz api servisinden veri çekilip gösterilen sayfa)
 - Login sayfası.
 - İletişim sayfası.
