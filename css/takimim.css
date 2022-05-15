@@ -1,0 +1,122 @@
+@media (min-width: 576px) {
+    html { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+}
+.navbar{
+    min-height:50px;
+
+}
+.navbar-custom {
+    background-color:linear-gradient(#790935,#61325d);
+}
+
+.navbar{padding:0.5rem;}
+.baslik{
+font-size:30px;
+font-weight: bolder;
+text-decoration:underline;
+text-align:center;
+margin:auto;
+}
+.baslik0{
+    
+        font-size:30px;
+        font-weight: bolder;
+        text-decoration:underline;
+        text-align:center;
+        margin-right: 25%;
+        
+}
+body{
+    background-image:url('backgroundNew.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.paragraf{
+    margin:0.1em;
+    margin-left:1em;
+    margin-right:2em;
+     font-size:15px;
+     font-family: 'Courier New', Courier, monospace;
+     color:whitesmoke;
+     text-align: left!important;
+     background:linear-gradient(#020024,#3280ab);
+     padding:0.5em;
+     overflow: hidden;
+     opacity: 0.7;
+     
+}
+.linyit{
+    width: 20%;
+    height: 400px;
+    float:right;
+    margin:3em;
+    display: block;
+    border-radius: 0.5em;
+    border: 0.32em solid red ;
+}
+.takim{
+    width: 70%;
+    height: 500px;
+    margin:0 auto;
+    margin:3em;
+    display: block;
+    border: 0.32em solid red;
+    border-radius: 0.5em;
+}
+.clear{
+    clear:both;
+}
+
+footer{
+    background-color: #33383c !important;
+    padding:70px 0px;
+}	       
+
+footer ul li{
+   padding:5px 0px;
+}
+
+.adress span , .contact span , .social span{
+  color: #FFF !important; 
+  font-weight: 800; 
+  padding-bottom: 10px; 
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.adress li p , .contact li a , .social li a{
+   color:#FFF !important;
+   letter-spacing: 2px;
+   text-decoration:none;
+   font-size:15px;
+}
+
+.social li{
+   float:left;
+}
+
+.adress , .contact , .social {
+   list-style: none;
+}
+
+.fa{
+   color:aliceblue !important;
+   margin-right: 15px;
+   font-size:14px;
+}
+
