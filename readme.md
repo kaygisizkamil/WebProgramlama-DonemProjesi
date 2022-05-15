@@ -4,11 +4,11 @@
 - Kamil Kaygısız-b211210381
 
 ## Proje İçeriği
-- Hakkında sayfası.
+- Hakkımda sayfası.
 - CV.
 - Şehrim sayfası.
 - Takımım sayfası.
-- İlgi alanlarım sayfası(ücretsiz api servisinden veri çekilip gösterilen sayfa)
+- Ücretsiz api servisinden veri çekilip gösterilen sayfa
 - Login sayfası.
 - İletişim sayfası.
 
