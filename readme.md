@@ -15,6 +15,6 @@
 ## Projeyi geliştirirken kullanılan kaynaklar
 - Proje ilerledikçe eklenecek..
 ## Site Linki
-- <a href="kaygisizkamilwebprojecthostingpackage.com" target="_blank">kaygisizkamilwebprojecthostingpackage.com</a>
+- <a href="http://kaygisizkamilwebprojecthostingpackage-com.stackstaging.com/" target="_blank">http://kaygisizkamilwebprojecthostingpackage-com.stackstaging.com/</a>
 
 
